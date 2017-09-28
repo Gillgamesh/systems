@@ -14,3 +14,14 @@ To use functions defined in other files, 2 things happen:
 
 2. Link the code for the external function to your executable code (gcc can automatically link functions in standard libraries.)
 
+
+However, if function doesn't exist, the warning is followed by the error because the linker can't find the function it's looking for
+
+Function header list, checks it here, then does linking
+`int main();`
+
+`double foo (int i, char c);`
+
+`*.h` means include headers, this lets you avoid the warnings. It is not necessary for linking
+
+
