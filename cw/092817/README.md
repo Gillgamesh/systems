@@ -16,4 +16,4 @@ char * s1 = "zero"; //ok!
 s = "seven"; //ok!
 ```
 
-
+1: strcat/strncat
