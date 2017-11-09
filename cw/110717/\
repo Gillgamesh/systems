@@ -1,0 +1,8 @@
+# Aim: Sending mixed signals
+
+
+* `kill` by default sends a `SIGTERM`, not a `SIGKILL`
+
+* `fg` = foreground.
+
+* getpid() returns the pid

@@ -6,6 +6,7 @@
 void main() {
     umask(0000);
 
+    printf("%d\n", getdtablesize());
     int newfile = open("foo.bar",  O_CREAT , 0666);
     close(newfile);
 }
